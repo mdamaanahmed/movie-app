@@ -14,7 +14,7 @@ const App = () => {
       <div className="container">
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/movie/:imdbID' element={<MovieDetail />} />
+          <Route path='/movie-detail/:imdbID' element={<MovieDetail />} />
           <Route path='*' element={<PageNotFound />} />
         </Routes>
       </div>

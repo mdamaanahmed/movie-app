@@ -2,8 +2,30 @@
 
 .movie_list{
     margin: 20px 0;
-    h2{
+    h1{
         color: $font-secondary;
         margin-bottom: 10px;
+        text-align: center;
+        margin: 30px 0;
     }
+}
+.movie_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-gap: 45px;
+}
+.show_list{
+    margin: 20px 0;
+    h1{
+        color: $font-secondary;
+        margin-bottom: 10px;
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 30px;
+    }
+}
+.show_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-gap: 45px;
 }
